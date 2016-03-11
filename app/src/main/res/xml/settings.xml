@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:title="@string/pref_server_title"
+        android:defaultValue="@string/pref_server_def_value"
+        android:entries="@array/pref_servers"
+        android:entryValues="@array/pref_servers_values"
+        android:key="@string/pref_server_key"
+        android:dialogTitle="@string/pref_server_dialog_title"
+        />
+
+    <ListPreference
+        android:title="@string/pref_volume_title"
+        android:defaultValue="@string/pref_volume_def_value"
+        android:entries="@array/pref_volumes"
+        android:entryValues="@array/pref_volumes_values"
+        android:key="@string/pref_volume_key"
+        android:dialogTitle="@string/pref_volume_dialog_title"
+        />
+
+    <ListPreference
+        android:title="@string/pref_timeout_title"
+        android:defaultValue="@string/pref_timeout_def_value"
+        android:entries="@array/pref_timeouts"
+        android:entryValues="@array/pref_timeouts_values"
+        android:key="@string/pref_timeout_key"
+        android:dialogTitle="@string/pref_timeout_dialog_title"
+        />
+</PreferenceScreen>

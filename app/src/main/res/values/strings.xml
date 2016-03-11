@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">NetworkTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="ping">Latency</string>
+    <string name="speed">Speed</string>
+    <string name="connection_type">Connection type</string>
+    <string name="provider">Mobile provider</string>
+    <string name="megabyte_suffix">MB</string>
+    <string name="kilobyte_suffix">kB</string>
+    <string name="byte_suffix">B</string>
+    <string name="second">s</string>
+    <string name="millisecond">ms</string>
+    <string name="no_info">No info</string>
+    <string name="result_error_connect">Error while testing. Check your network or choose another server.</string>
+    <string name="result_error_download">Server found, but application can not check speed. Try to choose another server.</string>
+    <string name="result_success">Test was passed successfully.</string>
+    <string name="result_cancelled">Test was cancelled.</string>
+    <string name="result_timeout">Test finished due to timeout. Results may be inappropriate.</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_server_title">Server</string>
+    <string name="pref_server_dialog_title">Choose server</string>
+    <string name="pref_server_key">pref_server</string>
+    <string name="pref_server_def">Russian Federation</string>
+    <string name="pref_server_def_value">http://mirror.yandex.ru/ubuntu-cdimage/releases/14.04.4/release/ubuntu-14.04.4-desktop-amd64%2Bmac.iso</string>
+
+    <string-array name="pref_servers">
+        <item>Finland</item>
+        <item>Germany</item>
+        <item>Ireland</item>
+        <item>Netherlands</item>
+        <item>Russian Federation</item>
+        <item>Spain</item>
+        <item>Sweden</item>
+        <item>Taiwan</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+    </string-array>
+
+    <string-array name="pref_servers_values">
+        <item>http://ftp.funet.fi/pub/Linux/INSTALL/Ubuntu/dvd-releases/releases/14.04/release/ubuntu-14.04.4-desktop-amd64+mac.iso</item>
+        <item>http://de.archive.ubuntu.com/ubuntu-releases/14.04.4/ubuntu-14.04.4-desktop-amd64.iso</item>
+        <item>http://ftp.heanet.ie/pub/ubuntu-cdimage/releases/14.04.4/release/ubuntu-14.04.4-desktop-amd64+mac.iso</item>
+        <item>http://nl.archive.ubuntu.com/ubuntu-cdimages/14.04/release/ubuntu-14.04.4-desktop-amd64+mac.iso</item>
+        <item>http://mirror.yandex.ru/ubuntu-cdimage/releases/14.04.4/release/ubuntu-14.04.4-desktop-amd64%2Bmac.iso</item>
+        <item>http://ubuntu.cica.es/releases/trusty/ubuntu-14.04.4-desktop-i386.iso</item>
+        <item>http://ftp.acc.umu.se/mirror/cdimage.ubuntu.com/releases/14.04/release/ubuntu-14.04.4-desktop-amd64+mac.iso</item>
+        <item>http://tw.archive.ubuntu.com/ubuntu-cd/14.04.4/ubuntu-14.04.4-desktop-amd64.iso</item>
+        <item>http://www.mirrorservice.org/sites/cdimage.ubuntu.com/cdimage/releases/14.04.4/release/ubuntu-14.04.4-desktop-amd64+mac.iso</item>
+        <item>http://mirror.pnl.gov/releases/14.04.4/ubuntu-14.04.4-desktop-amd64.iso</item>
+    </string-array>
+
+    <string name="pref_volume_title">Volume</string>
+    <string name="pref_volume_dialog_title">Choose volume</string>
+    <string name="pref_volume_key">pref_volume</string>
+    <string name="pref_volume_def">10 MB</string>
+    <string name="pref_volume_def_value">10</string>
+
+    <string-array name="pref_volumes">
+        <item>1 MB</item>
+        <item>5 MB</item>
+        <item>10 MB</item>
+        <item>20 MB</item>
+        <item>50 MB</item>
+        <item>500 MB</item>
+    </string-array>
+
+    <string-array name="pref_volumes_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+        <item>500</item>
+    </string-array>
+
+    <string name="pref_timeout_title">Timeout</string>
+    <string name="pref_timeout_dialog_title">Choose timeout</string>
+    <string name="pref_timeout_key">pref_timeout</string>
+    <string name="pref_timeout_def">20 seconds</string>
+    <string name="pref_timeout_def_value">20</string>
+
+    <string-array name="pref_timeouts">
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>20 seconds</item>
+        <item>30 seconds</item>
+        <item>60 seconds</item>
+        <item>120 seconds</item>
+    </string-array>
+
+    <string-array name="pref_timeouts_values">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+    </string-array>
+
+
+
+</resources>
